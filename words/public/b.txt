@@ -1,0 +1,13 @@
+prep
+check
+clone
+drop
+extract
+sample
+titrate
+focus
+zoom
+turn
+calibrating
+sequencing
+verifying

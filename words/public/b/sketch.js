@@ -1,5 +1,5 @@
 // Open up a socket
-let socket = io('/b');
+let socket = io('/b', { transports: ['polling'] });
 
 // Listen for connection
 // Log a success message

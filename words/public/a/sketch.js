@@ -1,4 +1,4 @@
-let socket = io('/a');
+let socket = io('/a', { transports: ['polling'] });
 
 // Listen for connection
 // Log a success message

@@ -5,6 +5,7 @@ shift
 turn
 unfocus
 require
+i sense agency
 in the dark
 towards the light
 under control 

@@ -24,12 +24,12 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  console.log(phrases);
   speaker = new p5.Speech(); // speech synthesis object
   speaker.setVolume(0.5);
   randomSeed(7);
   noStroke();
   background(0);
-
   // Speak next work
   socket.on('next', function(){ 
     next();

@@ -62,3 +62,7 @@ function next() {
 function keyPressed() {
     if(key == 'd') debug = !debug;
 }
+
+function mousePressed() {
+  stage_mgr.play();
+}

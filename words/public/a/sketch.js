@@ -21,7 +21,7 @@ let go = false;
 let cues = [];
 let stage_mgr;
 
-let debug = true;
+let debug = false;
 
 
 function preload() {
@@ -90,7 +90,7 @@ function speak() {
 }
 
 function keyPressed() {
-  if (key == 'd') debug = !debug;
+  //if (key == 'd') debug = !debug;
   if (key == ' ') {
     go = !go;
     if (go) {
